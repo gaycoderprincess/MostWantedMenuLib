@@ -29,7 +29,7 @@ target_include_directories(NFSMWMenuLib PUBLIC ../nya-common/3rdparty)
 target_include_directories(NFSMWMenuLib PUBLIC ../nya-common/3rdparty/imgui)
 target_include_directories(NFSMWMenuLib PUBLIC ../nya-common/3rdparty/imgui/backends)
 target_include_directories(NFSMWMenuLib PUBLIC ../nya-common-nfsmw)
-target_include_directories(NFSMWMenuLib PUBLIC ../FlatOutUCMenuLib)
+target_include_directories(NFSMWMenuLib PUBLIC ../CwoeeMenuLib)
 target_link_options(NFSMWMenuLib PRIVATE "-Wl,--exclude-all-symbols")
 
 set_target_properties(NFSMWMenuLib PROPERTIES PREFIX "")
